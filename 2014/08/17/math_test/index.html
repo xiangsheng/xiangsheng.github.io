@@ -5,18 +5,21 @@
   
   <title>数学公式测试 | Almost Perpect</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Cauchy积分公式：
-$f(z)=\int_\gamma \frac{f(w)}{z-w}dw$">
+  <meta name="description" content="Euler公式: $e^{i\pi}+1=0$.
+Cauchy积分公式：
+$$f(z)=\int_\gamma \frac{f(w)}{z-w}dw$$.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="数学公式测试">
 <meta property="og:url" content="http://xiangsheng.github.io/2014/08/17/math_test/">
 <meta property="og:site_name" content="Almost Perpect">
-<meta property="og:description" content="Cauchy积分公式：
-$f(z)=\int_\gamma \frac{f(w)}{z-w}dw$">
+<meta property="og:description" content="Euler公式: $e^{i\pi}+1=0$.
+Cauchy积分公式：
+$$f(z)=\int_\gamma \frac{f(w)}{z-w}dw$$.">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="数学公式测试">
-<meta name="twitter:description" content="Cauchy积分公式：
-$f(z)=\int_\gamma \frac{f(w)}{z-w}dw$">
+<meta name="twitter:description" content="Euler公式: $e^{i\pi}+1=0$.
+Cauchy积分公式：
+$$f(z)=\int_\gamma \frac{f(w)}{z-w}dw$$.">
 
   
     <link rel="alternative" href="/atom.xml" title="Almost Perpect" type="application/atom+xml">
@@ -28,6 +31,36 @@ $f(z)=\int_\gamma \frac{f(w)}{z-w}dw$">
 
   <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
   
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 </head>
 <body>
   <div id="container">
@@ -100,8 +133,9 @@ $f(z)=\int_\gamma \frac{f(w)}{z-w}dw$">
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Cauchy积分公式：</p>
-<p>$f(z)=\int_\gamma \frac{f(w)}{z-w}dw$</p>
+        <p>Euler公式: $e^{i\pi}+1=0$.</p>
+<p>Cauchy积分公式：</p>
+<p>$$f(z)=\int_\gamma \frac{f(w)}{z-w}dw$$.</p>
 
       
     </div>
